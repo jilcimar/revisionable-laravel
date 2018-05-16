@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ef6f6d3a-722c-48c6-9e0f-a2117cef90a5" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/app/Administracao.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Administracao.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/list.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/list.blade.php" afterDir="false" />
-    </list>
+    <list default="true" id="ef6f6d3a-722c-48c6-9e0f-a2117cef90a5" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -284,16 +281,15 @@
       <option name="presentableId" value="Default" />
       <updated>1526486737735</updated>
       <workItem from="1526486752153" duration="2375000" />
-      <workItem from="1526505404226" duration="4154000" />
+      <workItem from="1526505404226" duration="4615000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6529000" />
+    <option name="totallyTimeSpent" value="6990000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="741" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />

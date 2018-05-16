@@ -22,7 +22,7 @@
                     <div class="panel-body">
                         @foreach($admins as $admin)
                             @foreach($admin->revisionHistory as $history)
-                                <li>{{ $history->userResponsible()->first_name }} Alterou {{ $history->fieldName() }} de: {{ $history->oldValue() }} para: {{ $history->newValue() }}</li>
+                                <li>{{ $history->userResponsible()->name }} Alterou {{ $history->fieldName() }} de: {{ $history->oldValue() }} para: {{ $history->newValue() }}</li>
                             @endforeach
                         @endforeach
                     </div>
