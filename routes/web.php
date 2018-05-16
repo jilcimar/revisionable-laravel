@@ -18,6 +18,7 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/','HomeController@index');
 Route::post('/store', 'Controller@store')->name('store');
 Route::post('/update', 'Controller@update')->name('update');
 Route::get('/list', 'Controller@index')->name('list');
