@@ -27,11 +27,11 @@ php artisan serve
 
 # Resultados do teste
  Formulário de cadastro
-<p align="center"><img src="https://github.com/jilcimar/lumen-laravel/tree/master/public/imagens/store.jpg"></p>
+<p align="center"><img src="https://github.com/jilcimar/revisionable-laravel/blob/master/public/imagens/store.png"></p>
 
 Listagem dos itens cadastrados e exibindo o histórico de modificação de cada item
 
-<p align="center"><img src="https://github.com/jilcimar/lumen-laravel/tree/master/public/imagens/history.jpg"></p>
+<p align="center"><img src="https://github.com/jilcimar/revisionable-laravel/blob/master/public/imagens/store.png"></p>
 
 Histórico:
 - Nome de quem alterou
