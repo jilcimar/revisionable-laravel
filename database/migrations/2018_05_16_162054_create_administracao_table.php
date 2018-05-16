@@ -19,6 +19,7 @@ class CreateAdministracaoTable extends Migration
             $table->integer('quantidade');
             $table->string('inicio');
             $table->string('fim');
+            $table->softDeletes();
             $table->timestamps();
         });
     }

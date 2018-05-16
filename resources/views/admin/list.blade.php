@@ -9,7 +9,7 @@
 
                     <div class="panel-body">
                         @foreach($admins as $admin)
-                            <p>{{$admin->nome}}</p>
+                            <p>{{$admin->nome}} - <a href="{{url('edit/'.$admin->id)}}">Editar</a></p>
                         @endforeach
                     </div>
                 </div>
