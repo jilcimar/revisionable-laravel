@@ -31,7 +31,7 @@ php artisan serve
 
 Listagem dos itens cadastrados e exibindo o histórico de modificação de cada item
 
-<p align="center"><img src="https://github.com/jilcimar/revisionable-laravel/blob/master/public/imagens/store.png"></p>
+<p align="center"><img src="https://github.com/jilcimar/revisionable-laravel/blob/master/public/imagens/history.png"></p>
 
 Histórico:
 - Nome de quem alterou
