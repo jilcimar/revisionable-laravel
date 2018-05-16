@@ -8,7 +8,7 @@ Depois de toda configuração inicial do Laravel (.env, banco de dados).
 Execute os seguinte comandos:
 
 ```
-    compoer update
+    composer update
 ```
 Criando as tabelas
 ```
