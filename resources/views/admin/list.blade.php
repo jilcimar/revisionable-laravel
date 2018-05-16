@@ -1,7 +1,19 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: jilcimar
- * Date: 16/05/2018
- * Time: 13:26
- */
+@extends('layouts.app')
+
+@section('content')
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <div class="panel panel-default">
+                    <div class="panel-heading">Lista dos Teste</div>
+
+                    <div class="panel-body">
+                        @foreach($admins as $admin)
+                            <p>{{$admin->nome}}</p>
+                        @endforeach
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+@endsection
