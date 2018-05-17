@@ -8,6 +8,7 @@ use Illuminate\Http\Request;
 use Illuminate\Routing\Controller as BaseController;
 use Illuminate\Foundation\Validation\ValidatesRequests;
 use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
+use Illuminate\Support\Facades\DB;
 
 class Controller extends BaseController
 {
@@ -27,7 +28,7 @@ class Controller extends BaseController
     public function edit ($id)
     {
         $admin = Administracao::find($id);
-        return view('admin.form',compact('admin'));
+        return view('home',compact('admin'));
     }
 
     public function update(Request $request)
